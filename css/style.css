@@ -1,0 +1,49 @@
+.wrap {
+  width: 926px;
+}
+.title {
+  position:relative; 
+  height: 132px;
+  background-color: #23608f;
+  color: #cfd0d4;
+  background: #23608f url(../img/header_title_bg.png) 0 0 no-repeat;
+  text-transform: uppercase;
+  font-family: Tahoma;
+}
+.sitename {
+  position: absolute;
+  font-size: 28px;
+  left: 260px;
+  top: 32px;
+  }
+.corponame {
+  color: #d8d9dd;
+  position: absolute;
+  left: 277px;
+  font-size: 20px;
+  top: 83px;
+}
+.navigation ul {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+.navigation li {
+  display: table-cell;
+  padding: 6px;
+  background: url(../img/nav_item_bg.png) top right no-repeat;
+  text-align: center;
+ }  
+.navigation a {
+  color: #595353;
+  font-size: 19px;
+  font-family: Tahoma;
+ }
+.navigation {
+  background-color: #ababab;
+  background: url(../img/navigation_bg.png) top repeat-x;
+  height: 35px;
+  }
+ 
