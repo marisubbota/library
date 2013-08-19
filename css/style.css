@@ -101,7 +101,7 @@ html,body{
 .userinfo {
   padding: 20px;
 }
-.userinfo .controls{
+.userinfo .controls {
   text-align:right;
 }
   
@@ -111,4 +111,40 @@ html,body{
 }
 .info td {
   color: #eeeff7;
+}
+.books li{
+  min-height: 205px;
+  position: relative;
+  background-color: #eae9e9;
+  padding-left: 240px;
+  color: #737478;
+  font: 14px Tahoma, sans-serif;
+}
+.books h3 {
+  font: normal 20px Tahoma, sans-serif;
+  padding-top: 10px;
+}
+.books dt{
+  font-weight: normal;
+  width:auto;
+}
+.books dt:after{
+  content: ":";
+}
+.books dd {
+  margin-left: 0;
+}
+
+.books .preview {
+  position: absolute;
+  left:20px;
+  top:10px;
+}
+.books img{
+  height: 185px;
+}
+
+.bookaction form,
+.bookadmin form {
+  margin:0;
 }
